@@ -34,6 +34,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="../home/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
 
 </head>
 
@@ -142,7 +143,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
          padding: 10px 20px; font-size: 1rem; font-weight: 600; cursor: pointer; 
          transition: background-color 0.3s ease;"
             onmouseover="this.style.backgroundColor='#A82E29';"
-            onmouseout="this.style.backgroundColor='#C3413B';">
+            onmouseout="this.style.backgroundColor='#C3413B';" a>
             Reset Password</button>
         </div>
       </div>
